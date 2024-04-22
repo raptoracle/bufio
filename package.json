@@ -7,10 +7,10 @@
     "serialization"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bufio.git",
-  "homepage": "https://github.com/bcoin-org/bufio",
+  "repository": "git://github.com/raptoracle/bufio.git",
+  "homepage": "https://github.com/raptoracle/bufio",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bufio/issues"
+    "url": "https://github.com/raptoracle/bufio/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/bufio.js",
@@ -20,8 +20,8 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "devDependencies": {
-    "bmocha": "^2.1.0",
-    "bts-type-deps": "^0.0.3"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0",
+    "bts-type-deps": "git+https://github.com/raptoracle/bts-type-deps.git#semver:=0.0.3"
   },
   "engines": {
     "node": ">=14.0.0"
